@@ -1,0 +1,23 @@
+<html>
+<body>
+   <form>
+   <table aline="center">
+   <tr>
+   <td>name
+   <td><input type="text"placeholder="Name">
+   </tr>
+   <tr>
+   <td>Email
+   <td><input type="text"placeholder="Email">
+   </tr>
+   <tr>
+   <td>password:
+   <td><input type="text" placeholder="password">
+   </tr>
+   <tr>
+   <td>
+   <td><input type="submit"value="sign up"style="background-color:green;color:white">
+   </tr>
+   </from>
+</body>
+</html>

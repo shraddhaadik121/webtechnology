@@ -1,0 +1,47 @@
+Q.1
+  <h1>HTML NESTED LIST EXAMPLE</h1>
+
+<ul>
+    <li>Item 1</li>
+    <ul type="circle">
+        <li>Item 1.1</li>
+        <li>Item 1.2</li>
+        <li>Item 1.3</li>
+    </ul>
+    <li>Item 2</li>
+     <ul type="circle">
+        <li>Item 2.1</li>
+        <ul type="square">
+            <li>Item 2.1.1</li>
+            <li>Item 2.1.2</li>
+            <li>Item 2.1.3</li>
+        </ul>
+        <li>Item 2.2</li>
+        <li>Item 2.3</li>
+     </ul>
+    <li>Item 3</li>
+</ul>
+
+Q.2
+write a HTML code which generates an unordered list of five fruites and set different colour and size to each list item differently using inline styles.
+  <html>
+    
+    <body>
+        <ul>
+            <li style=" font-size:15px;color:red;">
+                    Rose</li>
+
+            <li style="font-size:20px;color:Yellow;">
+                    Sunflower</li>
+
+            <li style="font-size:30px;color:pink;">
+                    Lily</li>
+
+            <li style="font-size:40px;color:orange;">
+                   Hibiscus</li>
+
+            <li style=" font-size:50px;color:purple;">
+                  Lotus</li>
+        </ol>
+    </body>
+</html>

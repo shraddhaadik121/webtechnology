@@ -1,0 +1,58 @@
+ Q.1
+write a HTML code which generates the following output.
+applicatione form
+ <html>
+    <body>
+        <h2>Application Form</h2>
+        <form>
+         <label for="n1">First Name:</label> 
+         <input type="text" name="n1">
+          <label for="n2">Last Name</label> 
+          <input type="text" name="n2">
+          <br><br>
+          Date of birth:<input type="date">
+          Age:<input type="number">
+          <br><br>
+          Gender:<select>
+                <option>Male</option><option>Female</option>
+            </select>
+                Email Address:<input type="email" placeholder="Enter email address">
+            
+            <br><br>
+            Position Avaliable:
+            <input type="radio" name="n">Junior Developer
+            <input type="radio" name="n">Mid-level Developer
+            <input type="radio" name="n">Senior Developer         
+            <br><br>
+            Programming languages:<input type="checkbox">Java<input type="checkbox">Javascript <input type="checkbox">Python
+            <br><br>
+            Password:<input type="password">
+            Confirm Password:<input type="Password"><br><br>
+            <input type="Submit">  <input type="Reset">
+             </form>
+    </body>
+</html>
+
+Q.2
+ <!--Q 2. Write a HTML code which generates page with red background with a message
+“warning” in large size .Add scrolling text “read the message” below it using embedding
+stylesheet.-->
+
+<html>
+    <head>
+        <style>
+      body{
+        background-color: red;
+        
+      }
+      h1{
+        margin-top: auto;
+        text-align: center;
+      }
+        </style>
+    </head>
+    <body>
+        <h1>!!! This is the warning message !!!</h1>
+        <marquee><p>read the messge !</p></marquee>
+    </body>
+</html>
